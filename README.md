@@ -6,10 +6,9 @@ I deliberately update .gitignore to remove .env and private key from gitignore f
 
 Run the following command to test
 
- DB_DATABASE=laravel_employee (database name)
-
 <ol>
 <li> clone the repository</li>
+<li>create a database with laravel_employee name</li>
 <li> composer update </li>
 <li> php artisan migrate </li>
 <li> php artisan passport:install</li>
