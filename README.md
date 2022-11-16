@@ -6,27 +6,28 @@ I deliberately update .gitignore to remove .env and private key from gitignore f
 
 Run the following command to test
 
-1 clone the repository
-2 composer update
-3 php artisan migrate
-4 php artisan db:seed
-5 php artisan serve
+<ol>
+<li> clone the repository</li>
+<li> composer update </li>
+<li> php artisan migrate </li>
+<li> php artisan db:seed </li>
+<li> php artisan serve </li>
+</ol>
 
 Now, we can test backend api server with postman
 
-api links
+<h2>Api links </h2>
 
-to login <a>http://localhost:8000/api/login</a> [email and password are required]
+<b>to login</b> <a>http://localhost:8000/api/login</a> [email and password are required]
 
-to register <a>http://localhost:8000/api/register</a> [name, email and password are required]
+<b>to register</b> <a>http://localhost:8000/api/register</a> [name, email and password are required]
 
-add Employee <a>http://localhost:8000/api/employee</a> [Authorization headers with Bearer authorization token and Access header should be application/json] //Method POST
+<b>add Employee</b> <a>http://localhost:8000/api/employee</a> [Authorization headers with Bearer authorization token and Access header should be application/json] //Method POST
 
-view Employee list <a>http://localhost:8000/api/employee</a> [Authorization headers with Bearer authorization token and Access header should be application/json] //Method GET
+<b>view Employee list</b> <a>http://localhost:8000/api/employee</a> [Authorization headers with Bearer authorization token and Access header should be application/json] //Method GET
 
-view Employee detail <a>http://localhost:8000/api/employee/{id}</a> [Authorization headers with Bearer authorization token and Access header should be application/json] // Method GET
+<b>view Employee detail </b> <a>http://localhost:8000/api/employee/{id}</a> [Authorization headers with Bearer authorization token and Access header should be application/json] // Method GET
 
-update Employee <a>http://localhost:8000/api/employee/{id}</a> [Authorization headers with Bearer authorization token and Access header should be application/json] //Method PUT
+<b>update Employee </b> <a>http://localhost:8000/api/employee/{id}</a> [Authorization headers with Bearer authorization token and Access header should be application/json] //Method PUT
 
-delete Employee <a>http://localhost:8000/api/employee/{id}</a> [Authorization headers with Bearer authorization token and Access header should be application/json] //Method DELETE
-
+<b>delete Employee </b> <a>http://localhost:8000/api/employee/{id}</a> [Authorization headers with Bearer authorization token and Access header should be application/json] //Method DELETE
