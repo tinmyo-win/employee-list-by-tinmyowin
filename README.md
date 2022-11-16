@@ -18,9 +18,9 @@ Now, we can test backend api server with postman
 
 <h2>Api links </h2>
 
-<b>to login</b> <a>http://localhost:8000/api/login</a> [email and password are required]
+<b>to login</b> <a>http://localhost:8000/api/login</a> [email and password are required] //Method POST
 
-<b>to register</b> <a>http://localhost:8000/api/register</a> [name, email and password are required]
+<b>to register</b> <a>http://localhost:8000/api/register</a> [name, email and password are required] //Method POST
 
 <b>add Employee</b> <a>http://localhost:8000/api/employee</a> [Authorization headers with Bearer authorization token and Access header should be application/json] //Method POST
 
